@@ -1,0 +1,2 @@
+[21-May-2020 05:10:52 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/geneslyt/public_html/genesispeople.co.in/vsms/user/register.php:1) in /home/geneslyt/public_html/genesispeople.co.in/vsms/user/register.php on line 3
+[25-Aug-2020 21:09:38 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0

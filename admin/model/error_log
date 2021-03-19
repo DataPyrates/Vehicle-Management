@@ -1,0 +1,540 @@
+[01-Jun-2020 09:32:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomername.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomername.php on line 4
+[01-Jun-2020 09:32:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomername.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomername.php on line 4
+[01-Jun-2020 11:14:11 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomername.php on line 16
+[01-Jun-2020 11:14:12 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomername.php on line 16
+[01-Jun-2020 11:14:12 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomername.php on line 16
+[01-Jun-2020 11:14:13 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomername.php on line 16
+[01-Jun-2020 11:14:14 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomername.php on line 16
+[02-Jun-2020 01:52:05 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomerdetails.php:5
+Stack trace:
+#0 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomerdetails.php(5): PDO->prepare('select * from v...')
+#1 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomerdetails.php on line 5
+[05-Jun-2020 11:40:27 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'geneslyt_prakashdangar.category_master' doesn't exist in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php:12
+Stack trace:
+#0 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php(12): PDO->prepare('SELECT * FROM c...')
+#1 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/street_state_fetch.php(50): get_total_all_street_state()
+#2 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php on line 12
+[10-Jun-2020 16:02:08 UTC] PHP Warning:  include(../classes/db.php): failed to open stream: No such file or directory in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/generic_delete.php on line 2
+[10-Jun-2020 16:02:08 UTC] PHP Warning:  include(../classes/db.php): failed to open stream: No such file or directory in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/generic_delete.php on line 2
+[10-Jun-2020 16:02:08 UTC] PHP Warning:  include(): Failed opening '../classes/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/generic_delete.php on line 2
+[10-Jun-2020 16:02:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/generic_delete.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/generic_delete.php on line 6
+[10-Jun-2020 16:02:21 UTC] PHP Warning:  include(../classes/db.php): failed to open stream: No such file or directory in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/generic_delete.php on line 2
+[10-Jun-2020 16:02:21 UTC] PHP Warning:  include(../classes/db.php): failed to open stream: No such file or directory in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/generic_delete.php on line 2
+[10-Jun-2020 16:02:21 UTC] PHP Warning:  include(): Failed opening '../classes/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/generic_delete.php on line 2
+[10-Jun-2020 16:02:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/generic_delete.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/generic_delete.php on line 6
+[12-Jun-2020 09:35:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'gro' in 'where clause' in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php:28
+Stack trace:
+#0 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php(28): PDO->prepare('SELECT * FROM v...')
+#1 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/moc_fetch.php(50): get_total_all_moc()
+#2 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php on line 28
+[12-Jun-2020 09:35:35 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'gro' in 'where clause' in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php:28
+Stack trace:
+#0 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php(28): PDO->prepare('SELECT * FROM v...')
+#1 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/moc_fetch.php(50): get_total_all_moc()
+#2 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php on line 28
+[12-Jun-2020 09:36:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by moc  ORDER BY id ASC' at line 1 in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php:28
+Stack trace:
+#0 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php(28): PDO->prepare('SELECT * FROM v...')
+#1 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/moc_fetch.php(50): get_total_all_moc()
+#2 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php on line 28
+[12-Jun-2020 09:36:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by moc  ORDER BY id ASC' at line 1 in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php:28
+Stack trace:
+#0 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php(28): PDO->prepare('SELECT * FROM v...')
+#1 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/moc_fetch.php(50): get_total_all_moc()
+#2 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php on line 28
+[12-Jun-2020 09:37:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group by moc  ORDER BY id ASC' at line 1 in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php:28
+Stack trace:
+#0 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php(28): PDO->prepare('SELECT * FROM v...')
+#1 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/moc_fetch.php(50): get_total_all_moc()
+#2 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/function/function.php on line 28
+[12-Jun-2020 17:06:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_total_all_payment_terms() in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/payment_fetch.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/payment_fetch.php on line 50
+[14-Jun-2020 07:01:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_total_all_fuel_type() in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/fuel_type_fetch.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/fuel_type_fetch.php on line 50
+[14-Jun-2020 10:11:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_total_all_vehicle() in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/vehicle_fetch.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/vehicle_fetch.php on line 53
+[15-Jun-2020 05:13:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/db.php:3
+Stack trace:
+#0 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/db.php(3): PDO->__construct('mysql:host=loca...', 'geneslyt', 'G?n$sis@18')
+#1 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomerdetails.php(2): include('/home/geneslyt/...')
+#2 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/db.php on line 3
+[15-Jun-2020 05:15:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/db.php:3
+Stack trace:
+#0 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/db.php(3): PDO->__construct('mysql:host=loca...', 'geneslyt', 'G?n$sis@18')
+#1 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getproduct.php(2): include('/home/geneslyt/...')
+#2 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/db.php on line 3
+[15-Jun-2020 05:38:19 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'customer' in 'where clause' in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomerdetails.php:9
+Stack trace:
+#0 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomerdetails.php(9): PDO->prepare('select * from v...')
+#1 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/getcustomerdetails.php on line 9
+[15-Jun-2020 07:20:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_total_all_job_status() in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/job_status_fetch.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/job_status_fetch.php on line 50
+[27-Aug-2020 09:27:38 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Aug-2020 09:27:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'geneslyt'@'localhost' (using password: YES)' in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/db.php:3
+Stack trace:
+#0 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/db.php(3): PDO->__construct('mysql:host=loca...', 'geneslyt', 'G?n$sis@18')
+#1 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/customer_book_fetch.php(2): include('/home/geneslyt/...')
+#2 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/db.php on line 3
+[27-Aug-2020 09:45:15 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Aug-2020 22:57:51 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Aug-2020 22:57:51 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[27-Aug-2020 22:57:51 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Aug-2020 22:57:51 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[27-Aug-2020 22:57:52 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Aug-2020 22:57:52 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[27-Aug-2020 22:57:57 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[27-Aug-2020 22:57:57 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:01:06 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:01:06 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:01:06 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:01:06 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:01:06 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:01:06 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:01:07 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:01:07 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:04:16 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:04:16 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:04:16 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:04:16 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:04:16 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:04:16 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:04:16 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:04:16 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:04:21 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:04:23 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:04:23 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:08:12 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:08:12 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:08:12 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:08:12 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:08:12 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:08:12 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:08:18 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:08:18 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:10:46 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:10:46 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:11:48 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:11:48 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:13:02 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:13:02 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:13:06 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:13:06 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:13:08 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:13:08 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:13:56 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:13:56 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:14:28 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:14:28 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:14:41 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:14:41 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:15:59 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:15:59 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:17:00 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:17:00 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:17:18 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:17:18 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:17:28 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:17:29 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:17:31 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:17:33 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:17:34 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:17:36 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:17:38 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:17:41 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:17:41 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:17:41 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:17:41 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:17:41 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:17:41 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 00:18:42 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:20:04 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:20:10 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:20:13 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 00:20:15 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 01:14:11 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 01:14:46 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 01:14:56 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 01:14:59 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 01:15:06 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 01:15:10 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 01:15:10 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 01:15:10 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 01:15:10 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 01:15:47 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 01:15:47 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 01:15:47 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 01:15:47 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 01:15:47 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 01:15:47 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:01:04 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:01:07 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:01:07 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:01:07 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:01:07 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:01:07 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:01:07 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:01:09 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:01:09 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:01:19 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:01:19 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:02:13 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:02:13 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:02:13 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:02:13 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:02:13 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:02:13 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:02:16 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:02:16 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:02:21 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:02:25 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:02:25 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:06:54 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:07:04 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:07:05 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:07:05 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:07:05 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:07:05 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:07:05 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:07:07 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:07:18 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:07:22 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:07:22 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:07:23 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:07:29 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:07:29 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:07:29 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:07:29 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:07:30 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:07:30 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:07:36 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:07:36 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:08:30 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:08:30 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:08:31 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:08:47 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:08:47 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:08:47 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:08:47 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:08:50 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:09:05 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:09:20 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:09:20 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:09:20 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:09:20 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:09:20 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:09:20 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:09:26 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:09:34 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:09:36 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:09:45 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:09:45 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:09:45 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:09:45 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:09:45 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:09:45 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:10:01 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:10:01 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:10:01 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:10:01 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:10:01 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:10:01 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:10:05 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:10:11 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:10:11 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:10:11 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:10:11 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:10:17 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:13:27 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:13:27 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:13:27 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:13:27 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:13:28 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:13:28 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:13:47 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:13:47 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:13:47 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:13:47 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 12:13:47 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 12:13:47 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 20:48:05 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 20:48:05 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 20:48:05 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 20:48:05 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 20:48:05 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 20:48:05 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 20:48:06 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 20:48:06 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 20:48:11 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:37:07 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:37:11 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:37:18 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:37:18 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 21:37:18 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:37:18 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 21:37:18 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:37:18 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 21:37:21 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:37:26 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:37:35 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:37:35 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:37:35 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:37:35 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 21:37:35 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 21:37:35 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 21:37:37 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:37:40 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:37:42 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:38:03 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:38:07 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:38:09 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:38:09 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:38:09 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 21:38:09 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 21:38:09 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:38:09 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 21:38:12 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:38:12 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 21:38:14 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:38:16 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:38:16 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 21:39:30 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:39:30 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 21:39:32 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[28-Aug-2020 21:39:32 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[28-Aug-2020 21:39:35 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:05:22 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:05:46 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:05:52 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:05:53 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:05:53 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:05:54 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:05:54 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:05:55 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:05:56 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:05:57 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:05:57 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:05:58 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:05:58 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:06:00 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:06:00 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:06:01 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:06:01 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:06:02 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:06:03 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:06:04 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:06:05 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:06:14 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:06:15 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:06:18 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:06:18 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 00:06:18 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:06:18 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 00:11:59 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:11:59 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 00:11:59 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:11:59 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 00:11:59 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:11:59 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 00:15:50 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:15:50 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:15:50 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 00:15:50 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 00:15:50 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:15:50 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 00:15:51 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:15:51 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 00:15:53 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:15:55 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 00:15:55 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:44:11 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:44:16 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:44:16 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:44:16 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:44:16 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:44:24 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:44:50 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:44:54 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:44:54 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:44:54 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:44:54 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:45:17 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:45:22 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:45:30 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:45:30 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:45:30 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:45:30 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:45:30 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:45:30 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:45:32 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:45:32 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:45:33 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:45:35 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:45:35 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:45:50 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:45:50 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:45:51 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:46:14 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:46:14 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:46:16 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:47:10 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:47:10 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:47:10 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:47:10 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:47:10 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:47:10 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:47:13 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:47:19 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:47:19 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:47:19 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:47:19 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:47:28 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:50:24 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:50:27 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:50:27 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 05:50:27 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 05:50:27 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:11:08 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:11:08 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:11:08 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:11:08 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:11:53 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:11:53 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:11:53 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:11:53 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:11:53 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:11:53 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:13:56 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:13:56 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:13:56 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:13:56 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:13:56 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:13:56 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:14:03 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:14:03 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:14:03 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:14:03 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:14:03 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:14:03 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:17:09 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:17:09 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:17:09 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:17:09 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:17:09 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:17:09 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:18:09 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:18:09 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:20:25 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:20:25 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:20:32 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:20:32 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:21:14 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:21:14 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:22:09 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:22:09 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 06:24:25 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 06:24:25 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 13:34:40 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 13:34:40 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 13:43:19 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 13:43:19 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 14:13:28 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 14:14:37 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 14:14:37 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 14:14:40 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 14:14:46 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 14:14:47 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 14:14:48 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 14:14:57 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 14:14:57 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 14:14:59 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 14:15:36 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 14:15:36 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 14:17:38 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 14:17:38 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 14:17:58 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 14:17:58 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 14:18:04 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 14:25:30 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 14:25:30 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 15:13:17 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:13:17 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 15:13:20 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:15:16 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:15:16 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 15:16:06 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:17:35 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:17:35 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 15:17:38 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:18:23 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:18:23 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 15:19:25 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:19:26 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 15:19:33 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:20:37 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:20:37 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 15:25:18 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:25:18 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 15:25:22 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:38:14 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:38:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.first_name' in 'field list'' in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/invoice_fetch.php:26
+Stack trace:
+#0 /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/invoice_fetch.php(26): PDO->prepare('SELECT cb.*,c.f...')
+#1 {main}
+  thrown in /home/geneslyt/public_html/genesispeople.co.in/vsms/admin/model/invoice_fetch.php on line 26
+[29-Aug-2020 15:38:49 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:40:00 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:40:23 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:40:56 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:42:58 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 15:58:32 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 16:04:39 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 16:04:55 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 16:10:08 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 16:10:08 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 16:10:08 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 16:10:08 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 16:10:08 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 16:10:08 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 16:12:53 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 16:12:53 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 16:12:53 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 16:12:53 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 16:12:53 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 16:12:53 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 16:13:43 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 16:13:43 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 16:13:43 UTC] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[29-Aug-2020 16:13:43 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 16:13:43 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[29-Aug-2020 16:13:43 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
